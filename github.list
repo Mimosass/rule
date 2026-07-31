@@ -1,0 +1,38 @@
+# GitHub 全系分流规则
+# 仓库: https://github.com/Mimosass/rule
+# 适用: Surge / Loon / Shadowrocket / Clash
+# 建议策略: PROXY
+
+# 主站
+DOMAIN-SUFFIX,github.com
+
+# Pages / 静态站点
+DOMAIN-SUFFIX,github.io
+
+# 静态资源 CDN（头像、CSS/JS/字体）
+DOMAIN-SUFFIX,githubassets.com
+
+# Raw 文件 / Gist / 用户附件
+DOMAIN-SUFFIX,githubusercontent.com
+
+# Codespaces / Web Editor
+DOMAIN-SUFFIX,github.dev
+
+# GitHub App
+DOMAIN-SUFFIX,githubapp.com
+
+# Container Registry
+DOMAIN-SUFFIX,ghcr.io
+
+# npm（GitHub 旗下）
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmjs.org
+
+# 短链接
+DOMAIN-SUFFIX,git.io
+
+# Copilot
+DOMAIN-SUFFIX,githubcopilot.com
+
+# 状态页
+DOMAIN-SUFFIX,githubstatus.com
