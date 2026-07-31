@@ -1,0 +1,72 @@
+# 日本亚马逊分流规则 (Amazon.co.jp)
+# 仓库: https://github.com/Mimosass/rule
+# 适用: Surge / Loon / Shadowrocket / Clash (DOMAIN-SUFFIX 通用格式)
+# 建议策略: 日本节点
+
+# ============================================================
+# 一、日本站专用域名（仅服务于 Amazon.co.jp）
+# ============================================================
+
+# 购物主站
+DOMAIN-SUFFIX,amazon.co.jp
+DOMAIN-SUFFIX,amazon.jp
+
+# 卖家平台
+DOMAIN-SUFFIX,sellercentral.amazon.co.jp
+
+# 联盟营销
+DOMAIN-SUFFIX,affiliate.amazon.co.jp
+
+# 广告系统
+DOMAIN-SUFFIX,ads.amazon.co.jp
+DOMAIN-SUFFIX,aax-fe.amazon.co.jp
+
+# Prime Video 日本
+DOMAIN-SUFFIX,atv-ps-fe.amazon.co.jp
+DOMAIN-SUFFIX,atv-ps.amazon.co.jp
+DOMAIN-SUFFIX,pv-cdn.amazon.co.jp
+
+# Amazon Music 日本
+DOMAIN-SUFFIX,music.amazon.co.jp
+
+# Amazon Pay 日本
+DOMAIN-SUFFIX,pay.amazon.co.jp
+
+# Kindle 日本
+DOMAIN-SUFFIX,kindle.co.jp
+DOMAIN-SUFFIX,kindle.jp
+DOMAIN-SUFFIX,kindleoasis.jp
+DOMAIN-SUFFIX,kdp.amazon.co.jp
+DOMAIN-SUFFIX,read.amazon.co.jp
+
+# 追踪/日志
+DOMAIN-SUFFIX,fls-fe.amazon.co.jp
+DOMAIN-SUFFIX,fls-na.amazon.co.jp
+DOMAIN-SUFFIX,unagi.amazon.co.jp
+
+# 品牌注册
+DOMAIN-SUFFIX,brandregistry.amazon.co.jp
+DOMAIN-SUFFIX,brandservices.amazon.co.jp
+
+# 企业/招聘
+DOMAIN-SUFFIX,aboutamazon.jp
+DOMAIN-SUFFIX,amazon-jp-recruiting.com
+
+# Audible 日本
+DOMAIN-SUFFIX,audible.co.jp
+
+# 日本专用图片CDN
+DOMAIN-SUFFIX,images-fe.ssl-images-amazon.co.jp
+DOMAIN-SUFFIX,images-na.ssl-images-amazon.co.jp
+
+# ============================================================
+# 二、全球共享 CDN / 资源域名（日亚大量使用，也服务美亚等站）
+# ============================================================
+
+DOMAIN-SUFFIX,ssl-images-amazon.com
+DOMAIN-SUFFIX,images-amazon.com
+DOMAIN-SUFFIX,images-fe.ssl-images-amazon.com
+DOMAIN-SUFFIX,images-na.ssl-images-amazon.com
+DOMAIN-SUFFIX,images-eu.ssl-images-amazon.com
+DOMAIN-SUFFIX,media-amazon.com
+DOMAIN-SUFFIX,amazonimages.com
